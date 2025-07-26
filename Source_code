@@ -5,7 +5,7 @@
 #include <BlynkSimpleEsp8266.h>
  
 static const int RXPin = 4, TXPin = 5;    // GPIO 4=D2(conneect Tx of GPS) and GPIO 5=D1(Connect Rx of GPS
-static const uint32_t GPSBaud = 9600;    //if Baud rate 9600 didn't work in your case then use 4800
+static const uint32_t GPSBaud = 9600;    //if Baud rate 9600 didn't work in case then use 4800
  
 TinyGPSPlus gps;      // The TinyGPS++ object
 WidgetMap myMap(V0);  // V0 for virtual pin of Map Widget
